@@ -123,7 +123,7 @@ export default function Hero() {
         </div>
 
         {/* ── RIGHT: Personal image ────────────────────────── */}
-        <div className="relative w-full h-72 md:h-auto md:flex-1 overflow-hidden bg-[#111]">
+        <div className="relative hidden md:block md:h-auto md:flex-1 overflow-hidden bg-[#111]">
           <motion.div
             style={{ y: imageY }}
             className="absolute inset-0 scale-[1.15] origin-center"
